@@ -9,4 +9,9 @@ ADD_EXECUTABLE (ui-sample
     main.cpp
 )
 
+ADD_EXECUTABLE (ui-menu-sample
+    main-menu.cpp
+)
+
 TARGET_LINK_LIBRARIES(ui-sample PUBLIC ${UI_LIBRARY})
+TARGET_LINK_LIBRARIES(ui-menu-sample PUBLIC ${UI_LIBRARY})
